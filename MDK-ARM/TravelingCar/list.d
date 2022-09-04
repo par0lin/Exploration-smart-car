@@ -1,0 +1,12 @@
+travelingcar\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/list.c
+travelingcar\list.o: D:\stm32\ARM\ARMCC\Bin\..\include\stdlib.h
+travelingcar\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+travelingcar\list.o: D:\stm32\ARM\ARMCC\Bin\..\include\stddef.h
+travelingcar\list.o: D:\stm32\ARM\ARMCC\Bin\..\include\stdint.h
+travelingcar\list.o: ../Core/Inc/FreeRTOSConfig.h
+travelingcar\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+travelingcar\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+travelingcar\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+travelingcar\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+travelingcar\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+travelingcar\list.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

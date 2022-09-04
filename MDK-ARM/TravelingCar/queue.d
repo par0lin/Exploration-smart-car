@@ -1,0 +1,15 @@
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+travelingcar\queue.o: D:\stm32\ARM\ARMCC\Bin\..\include\stdlib.h
+travelingcar\queue.o: D:\stm32\ARM\ARMCC\Bin\..\include\string.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+travelingcar\queue.o: D:\stm32\ARM\ARMCC\Bin\..\include\stddef.h
+travelingcar\queue.o: D:\stm32\ARM\ARMCC\Bin\..\include\stdint.h
+travelingcar\queue.o: ../Core/Inc/FreeRTOSConfig.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+travelingcar\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

@@ -1,0 +1,15 @@
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+travelingcar\event_groups.o: D:\stm32\ARM\ARMCC\Bin\..\include\stdlib.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+travelingcar\event_groups.o: D:\stm32\ARM\ARMCC\Bin\..\include\stddef.h
+travelingcar\event_groups.o: D:\stm32\ARM\ARMCC\Bin\..\include\stdint.h
+travelingcar\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+travelingcar\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
