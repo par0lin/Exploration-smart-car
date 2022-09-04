@@ -1,0 +1,1021 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.21.1.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: parolin hp, HP Inc., LIC=585FJ-U4NSS-QD2KD-8JZBI-PM13V-SP91H
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.21a
+Toolchain Path:  D:\stm32\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 3 (build 300)
+Assembler:       Armasm.exe V5.06 update 3 (build 300)
+Linker/Locator:  ArmLink.exe V5.06 update 3 (build 300)
+Library Manager: ArmAr.exe V5.06 update 3 (build 300)
+Hex Converter:   FromElf.exe V5.06 update 3 (build 300)
+CPU DLL:         SARMCM3.DLL V5.21a
+Dialog DLL:      DCM.DLL V1.13.8.0
+Target DLL:      CMSIS_AGDI.dll V1.26.5.0
+Dialog DLL:      TCM.DLL V1.14.14.0
+ 
+<h2>Project:</h2>
+C:\Users\hp\Documents\Tencent Files\1067026931\FileRecv\TravelingCar_FreeRTOS_Final\MDK-ARM\TravelingCar.uvprojx
+Project File Date:  04/15/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 3 (build 300)', folder: 'D:\stm32\ARM\ARMCC\Bin'
+Rebuild target 'TravelingCar'
+assembling startup_stm32f407xx.s...
+compiling tim.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/tim.c: 7 warnings, 0 errors
+compiling iic.c...
+..\Core\Src\iic.c(114): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\iic.c: 1 warning, 0 errors
+compiling freertos.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/freertos.c: 7 warnings, 0 errors
+compiling stm32f4xx_hal_timebase_tim.c...
+compiling can.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/can.c: 7 warnings, 0 errors
+compiling delay.c...
+compiling stm32f4xx_hal_msp.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/stm32f4xx_hal_msp.c: 7 warnings, 0 errors
+compiling ramp.c...
+..\bsp\ramp.c(34): warning:  #177-D: variable "inc" was declared but never referenced
+  	int32_t inc = 0;
+..\bsp\ramp.c: 1 warning, 0 errors
+compiling DataScope_DP.C...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\DataScope_DP.C: 7 warnings, 0 errors
+compiling adc.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/adc.c: 7 warnings, 0 errors
+compiling usart.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/usart.c: 7 warnings, 0 errors
+compiling dma.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/dma.c: 7 warnings, 0 errors
+compiling key.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\key.c: 7 warnings, 0 errors
+compiling gpio.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/gpio.c: 7 warnings, 0 errors
+compiling main.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../MyCode/control.h(72): warning:  #1295-D: Deprecated declaration WaitForCross - give arg types
+  void WaitForCross();
+../MyCode/control.h(84): warning:  #1295-D: Deprecated declaration flash_led - give arg types
+  void flash_led();
+../MyCode/control.h(85): warning:  #1295-D: Deprecated declaration battery - give arg types
+  void battery();
+../MyCode/control.h(86): warning:  #1295-D: Deprecated declaration show_battery - give arg types
+  void show_battery();
+../MyCode/control.h(87): warning:  #1295-D: Deprecated declaration battery_check - give arg types
+  void battery_check();
+../MyCode/control.h(90): warning:  #1295-D: Deprecated declaration detect_Traffic_light - give arg types
+  uint8_t detect_Traffic_light();
+../MyCode/control.h(91): warning:  #1295-D: Deprecated declaration Traffic_pass - give arg types
+  int Traffic_pass();
+../MyCode/control.h(95): warning:  #1295-D: Deprecated declaration record_read - give arg types
+  void record_read();
+../MyCode/control.h(96): warning:  #1295-D: Deprecated declaration record_show - give arg types
+  void record_show();
+../MyCode/section.h(21): warning:  #1295-D: Deprecated declaration p1_to_p2 - give arg types
+  void p1_to_p2();
+../MyCode/section.h(22): warning:  #1295-D: Deprecated declaration p2_to_p3 - give arg types
+  void p2_to_p3();
+../MyCode/section.h(23): warning:  #1295-D: Deprecated declaration p2_to_p4 - give arg types
+  void p2_to_p4();
+../MyCode/section.h(25): warning:  #1295-D: Deprecated declaration p3_to_s01 - give arg types
+  void p3_to_s01();
+../MyCode/section.h(26): warning:  #1295-D: Deprecated declaration s01_to_p4 - give arg types
+  void s01_to_p4();
+../MyCode/section.h(27): warning:  #1295-D: Deprecated declaration p3_to_p4 - give arg types
+  void p3_to_p4();
+../MyCode/section.h(29): warning:  #1295-D: Deprecated declaration p4_to_s02 - give arg types
+  void p4_to_s02();
+../MyCode/section.h(30): warning:  #1295-D: Deprecated declaration s02_to_cross2 - give arg types
+  void s02_to_cross2();
+../MyCode/section.h(31): warning:  #1295-D: Deprecated declaration p4_to_cross2 - give arg types
+  void p4_to_cross2();
+../MyCode/section.h(35): warning:  #1295-D: Deprecated declaration cross3_to_p6 - give arg types
+  void cross3_to_p6();
+../MyCode/section.h(36): warning:  #1295-D: Deprecated declaration cross3_to_p8 - give arg types
+  void cross3_to_p8();
+../MyCode/section.h(38): warning:  #1295-D: Deprecated declaration p6_to_s03 - give arg types
+  void p6_to_s03();
+../MyCode/section.h(39): warning:  #1295-D: Deprecated declaration s03_to_p8 - give arg types
+  void s03_to_p8();
+../MyCode/section.h(40): warning:  #1295-D: Deprecated declaration p6_to_p8 - give arg types
+  void p6_to_p8();
+../MyCode/section.h(42): warning:  #1295-D: Deprecated declaration p8_to_p7 - give arg types
+  void p8_to_p7();
+../MyCode/section.h(43): warning:  #1295-D: Deprecated declaration p7_to_p5 - give arg types
+  void p7_to_p5();
+../MyCode/section.h(44): warning:  #1295-D: Deprecated declaration p7_to_cross3 - give arg types
+  void p7_to_cross3();
+../MyCode/section.h(46): warning:  #1295-D: Deprecated declaration p5_to_s05 - give arg types
+  void p5_to_s05();
+../MyCode/section.h(47): warning:  #1295-D: Deprecated declaration s05_to_s04 - give arg types
+  void s05_to_s04();
+../MyCode/section.h(48): warning:  #1295-D: Deprecated declaration s04_to_cross3 - give arg types
+  void s04_to_cross3();
+../MyCode/section.h(49): warning:  #1295-D: Deprecated declaration p5_to_cross3 - give arg types
+  void p5_to_cross3();
+../MyCode/section.h(51): warning:  #1295-D: Deprecated declaration cross3_to_cross12 - give arg types
+  void cross3_to_cross12();
+../MyCode/section.h(54): warning:  #1295-D: Deprecated declaration cross4_to_p5 - give arg types
+  void cross4_to_p5();
+../MyCode/section.h(55): warning:  #1295-D: Deprecated declaration cross4_to_p6 - give arg types
+  void cross4_to_p6();
+../MyCode/section.h(56): warning:  #1295-D: Deprecated declaration cross4_to_p8 - give arg types
+  void cross4_to_p8();
+../MyCode/section.h(58): warning:  #1295-D: Deprecated declaration p5_to_s05 - give arg types
+  void p5_to_s05();
+../MyCode/section.h(59): warning:  #1295-D: Deprecated declaration s05_to_s04 - give arg types
+  void s05_to_s04();
+../MyCode/section.h(60): warning:  #1295-D: Deprecated declaration s04_to_p6 - give arg types
+  void s04_to_p6();
+../MyCode/section.h(61): warning:  #1295-D: Deprecated declaration p5_to_p6 - give arg types
+  void p5_to_p6();
+../MyCode/section.h(63): warning:  #1295-D: Deprecated declaration p6_to_s03 - give arg types
+  void p6_to_s03();
+../MyCode/section.h(64): warning:  #1295-D: Deprecated declaration s03_to_p8 - give arg types
+  void s03_to_p8();
+../MyCode/section.h(65): warning:  #1295-D: Deprecated declaration p6_to_p8 - give arg types
+  void p6_to_p8();
+../MyCode/section.h(67): warning:  #1295-D: Deprecated declaration p8_to_p7 - give arg types
+  void p8_to_p7();
+../MyCode/section.h(68): warning:  #1295-D: Deprecated declaration p7_to_cross4 - give arg types
+  void p7_to_cross4();	
+../MyCode/section.h(69): warning:  #1295-D: Deprecated declaration cross4_to_cross12 - give arg types
+  void cross4_to_cross12();
+../MyCode/section.h(71): warning:  #1295-D: Deprecated declaration cross12_back - give arg types
+  void cross12_back();
+../MyCode/section.h(73): warning:  #1295-D: Deprecated declaration find_door - give arg types
+  void find_door();
+../MyCode/section.h(106): warning:  #1295-D: Deprecated declaration jieti_2 - give arg types
+  void jieti_2();
+../MyCode/section.h(108): warning:  #1295-D: Deprecated declaration pingtai6 - give arg types
+  void pingtai6();
+../MyCode/section.h(109): warning:  #1295-D: Deprecated declaration ready - give arg types
+  void ready();
+../MyCode/section.h(110): warning:  #1295-D: Deprecated declaration jinxingban_start - give arg types
+  void jinxingban_start();
+../MyCode/section.h(114): warning:  #1295-D: Deprecated declaration zhili - give arg types
+  void zhili();
+../MyCode/section.h(117): warning:  #1295-D: Deprecated declaration backhome - give arg types
+  void backhome();
+../bsp/servo.h(5): warning:  #1295-D: Deprecated declaration servo_init - give arg types
+  void servo_init(); 
+../MyCode/remote_control.h(106): warning:  #1295-D: Deprecated declaration remote_set_door - give arg types
+  void remote_set_door();
+../Core/Src/main.c: 61 warnings, 0 errors
+compiling stm32f4xx_it.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../Core/Src/stm32f4xx_it.c: 7 warnings, 0 errors
+compiling led.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\led.c: 7 warnings, 0 errors
+compiling pid.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\pid.c(156): warning:  #1-D: last line of file ends without a newline
+  }
+..\bsp\pid.c: 8 warnings, 0 errors
+compiling u8g2_bitmap.c...
+compiling u8g2_box.c...
+compiling u8g2_buffer.c...
+compiling u8g2_circle.c...
+compiling u8g2_cleardisplay.c...
+compiling u8g2_d_memory.c...
+compiling u8g2_d_setup.c...
+compiling bsp_rc.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\bsp_rc.c: 7 warnings, 0 errors
+compiling sensor8.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\MyCode\sensor8.c(127): warning:  #167-D: argument of type "volatile uint8_t *" is incompatible with parameter of type "uint8_t *"
+  	HAL_UART_Receive_IT(&huart2,&USART_RX_STA[Num++],1);			//使?艽?3，一??每?味嫉??镁???实??实时????蓝?来??涞???息
+..\MyCode\sensor8.c: 8 warnings, 0 errors
+compiling bsp_can.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\bsp_can.c: 7 warnings, 0 errors
+compiling u8g2_font.c...
+compiling u8g2_hvline.c...
+compiling bsp_flash.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\bsp_flash.c: 7 warnings, 0 errors
+compiling bsp_u8g2.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\bsp_u8g2.c: 7 warnings, 0 errors
+compiling u8g2_intersection.c...
+compiling JY901.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\MyCode\JY901.c(4): warning:  #550-D: variable "TxBuffer" was set but never used
+  static unsigned char TxBuffer[256];
+..\MyCode\JY901.c(5): warning:  #177-D: variable "TxCounter" was declared but never referenced
+  static unsigned char TxCounter=0;
+..\MyCode\JY901.c: 9 warnings, 0 errors
+compiling u8g2_input_value.c...
+compiling u8g2_kerning.c...
+compiling MyTask.c...
+..\MyCode\MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+..\MyCode\MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+..\MyCode\MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+..\MyCode\MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+..\MyCode\MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+..\MyCode\MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+..\MyCode\MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+../bsp/servo.h(5): warning:  #1295-D: Deprecated declaration servo_init - give arg types
+  void servo_init(); 
+..\MyCode\control.h(72): warning:  #1295-D: Deprecated declaration WaitForCross - give arg types
+  void WaitForCross();
+..\MyCode\control.h(84): warning:  #1295-D: Deprecated declaration flash_led - give arg types
+  void flash_led();
+..\MyCode\control.h(85): warning:  #1295-D: Deprecated declaration battery - give arg types
+  void battery();
+..\MyCode\control.h(86): warning:  #1295-D: Deprecated declaration show_battery - give arg types
+  void show_battery();
+..\MyCode\control.h(87): warning:  #1295-D: Deprecated declaration battery_check - give arg types
+  void battery_check();
+..\MyCode\control.h(90): warning:  #1295-D: Deprecated declaration detect_Traffic_light - give arg types
+  uint8_t detect_Traffic_light();
+..\MyCode\control.h(91): warning:  #1295-D: Deprecated declaration Traffic_pass - give arg types
+  int Traffic_pass();
+..\MyCode\control.h(95): warning:  #1295-D: Deprecated declaration record_read - give arg types
+  void record_read();
+..\MyCode\control.h(96): warning:  #1295-D: Deprecated declaration record_show - give arg types
+  void record_show();
+..\MyCode\section.h(21): warning:  #1295-D: Deprecated declaration p1_to_p2 - give arg types
+  void p1_to_p2();
+..\MyCode\section.h(22): warning:  #1295-D: Deprecated declaration p2_to_p3 - give arg types
+  void p2_to_p3();
+..\MyCode\section.h(23): warning:  #1295-D: Deprecated declaration p2_to_p4 - give arg types
+  void p2_to_p4();
+..\MyCode\section.h(25): warning:  #1295-D: Deprecated declaration p3_to_s01 - give arg types
+  void p3_to_s01();
+..\MyCode\section.h(26): warning:  #1295-D: Deprecated declaration s01_to_p4 - give arg types
+  void s01_to_p4();
+..\MyCode\section.h(27): warning:  #1295-D: Deprecated declaration p3_to_p4 - give arg types
+  void p3_to_p4();
+..\MyCode\section.h(29): warning:  #1295-D: Deprecated declaration p4_to_s02 - give arg types
+  void p4_to_s02();
+..\MyCode\section.h(30): warning:  #1295-D: Deprecated declaration s02_to_cross2 - give arg types
+  void s02_to_cross2();
+..\MyCode\section.h(31): warning:  #1295-D: Deprecated declaration p4_to_cross2 - give arg types
+  void p4_to_cross2();
+..\MyCode\section.h(35): warning:  #1295-D: Deprecated declaration cross3_to_p6 - give arg types
+  void cross3_to_p6();
+..\MyCode\section.h(36): warning:  #1295-D: Deprecated declaration cross3_to_p8 - give arg types
+  void cross3_to_p8();
+..\MyCode\section.h(38): warning:  #1295-D: Deprecated declaration p6_to_s03 - give arg types
+  void p6_to_s03();
+..\MyCode\section.h(39): warning:  #1295-D: Deprecated declaration s03_to_p8 - give arg types
+  void s03_to_p8();
+..\MyCode\section.h(40): warning:  #1295-D: Deprecated declaration p6_to_p8 - give arg types
+  void p6_to_p8();
+..\MyCode\section.h(42): warning:  #1295-D: Deprecated declaration p8_to_p7 - give arg types
+  void p8_to_p7();
+..\MyCode\section.h(43): warning:  #1295-D: Deprecated declaration p7_to_p5 - give arg types
+  void p7_to_p5();
+..\MyCode\section.h(44): warning:  #1295-D: Deprecated declaration p7_to_cross3 - give arg types
+  void p7_to_cross3();
+..\MyCode\section.h(46): warning:  #1295-D: Deprecated declaration p5_to_s05 - give arg types
+  void p5_to_s05();
+..\MyCode\section.h(47): warning:  #1295-D: Deprecated declaration s05_to_s04 - give arg types
+  void s05_to_s04();
+..\MyCode\section.h(48): warning:  #1295-D: Deprecated declaration s04_to_cross3 - give arg types
+  void s04_to_cross3();
+..\MyCode\section.h(49): warning:  #1295-D: Deprecated declaration p5_to_cross3 - give arg types
+  void p5_to_cross3();
+..\MyCode\section.h(51): warning:  #1295-D: Deprecated declaration cross3_to_cross12 - give arg types
+  void cross3_to_cross12();
+..\MyCode\section.h(54): warning:  #1295-D: Deprecated declaration cross4_to_p5 - give arg types
+  void cross4_to_p5();
+..\MyCode\section.h(55): warning:  #1295-D: Deprecated declaration cross4_to_p6 - give arg types
+  void cross4_to_p6();
+..\MyCode\section.h(56): warning:  #1295-D: Deprecated declaration cross4_to_p8 - give arg types
+  void cross4_to_p8();
+..\MyCode\section.h(58): warning:  #1295-D: Deprecated declaration p5_to_s05 - give arg types
+  void p5_to_s05();
+..\MyCode\section.h(59): warning:  #1295-D: Deprecated declaration s05_to_s04 - give arg types
+  void s05_to_s04();
+..\MyCode\section.h(60): warning:  #1295-D: Deprecated declaration s04_to_p6 - give arg types
+  void s04_to_p6();
+..\MyCode\section.h(61): warning:  #1295-D: Deprecated declaration p5_to_p6 - give arg types
+  void p5_to_p6();
+..\MyCode\section.h(63): warning:  #1295-D: Deprecated declaration p6_to_s03 - give arg types
+  void p6_to_s03();
+..\MyCode\section.h(64): warning:  #1295-D: Deprecated declaration s03_to_p8 - give arg types
+  void s03_to_p8();
+..\MyCode\section.h(65): warning:  #1295-D: Deprecated declaration p6_to_p8 - give arg types
+  void p6_to_p8();
+..\MyCode\section.h(67): warning:  #1295-D: Deprecated declaration p8_to_p7 - give arg types
+  void p8_to_p7();
+..\MyCode\section.h(68): warning:  #1295-D: Deprecated declaration p7_to_cross4 - give arg types
+  void p7_to_cross4();	
+..\MyCode\section.h(69): warning:  #1295-D: Deprecated declaration cross4_to_cross12 - give arg types
+  void cross4_to_cross12();
+..\MyCode\section.h(71): warning:  #1295-D: Deprecated declaration cross12_back - give arg types
+  void cross12_back();
+..\MyCode\section.h(73): warning:  #1295-D: Deprecated declaration find_door - give arg types
+  void find_door();
+..\MyCode\section.h(106): warning:  #1295-D: Deprecated declaration jieti_2 - give arg types
+  void jieti_2();
+..\MyCode\section.h(108): warning:  #1295-D: Deprecated declaration pingtai6 - give arg types
+  void pingtai6();
+..\MyCode\section.h(109): warning:  #1295-D: Deprecated declaration ready - give arg types
+  void ready();
+..\MyCode\section.h(110): warning:  #1295-D: Deprecated declaration jinxingban_start - give arg types
+  void jinxingban_start();
+..\MyCode\section.h(114): warning:  #1295-D: Deprecated declaration zhili - give arg types
+  void zhili();
+..\MyCode\section.h(117): warning:  #1295-D: Deprecated declaration backhome - give arg types
+  void backhome();
+..\MyCode\remote_control.h(106): warning:  #1295-D: Deprecated declaration remote_set_door - give arg types
+  void remote_set_door();
+..\MyCode\MyTask.c: 61 warnings, 0 errors
+compiling u8g2_line.c...
+compiling u8g2_ll_hvline.c...
+compiling u8g2_message.c...
+compiling servo.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\bsp\servo.h(5): warning:  #1295-D: Deprecated declaration servo_init - give arg types
+  void servo_init(); 
+..\bsp\servo.c(52): warning:  #1-D: last line of file ends without a newline
+  }
+..\bsp\servo.c: 9 warnings, 0 errors
+compiling remote_control.c...
+..\MyCode\remote_control.h(106): warning:  #1295-D: Deprecated declaration remote_set_door - give arg types
+  void remote_set_door();
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\MyCode\control.h(72): warning:  #1295-D: Deprecated declaration WaitForCross - give arg types
+  void WaitForCross();
+..\MyCode\control.h(84): warning:  #1295-D: Deprecated declaration flash_led - give arg types
+  void flash_led();
+..\MyCode\control.h(85): warning:  #1295-D: Deprecated declaration battery - give arg types
+  void battery();
+..\MyCode\control.h(86): warning:  #1295-D: Deprecated declaration show_battery - give arg types
+  void show_battery();
+..\MyCode\control.h(87): warning:  #1295-D: Deprecated declaration battery_check - give arg types
+  void battery_check();
+..\MyCode\control.h(90): warning:  #1295-D: Deprecated declaration detect_Traffic_light - give arg types
+  uint8_t detect_Traffic_light();
+..\MyCode\control.h(91): warning:  #1295-D: Deprecated declaration Traffic_pass - give arg types
+  int Traffic_pass();
+..\MyCode\control.h(95): warning:  #1295-D: Deprecated declaration record_read - give arg types
+  void record_read();
+..\MyCode\control.h(96): warning:  #1295-D: Deprecated declaration record_show - give arg types
+  void record_show();
+..\MyCode\remote_control.c(258): warning:  #1-D: last line of file ends without a newline
+  }
+..\MyCode\remote_control.c: 18 warnings, 0 errors
+compiling uart_it.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\MyCode\control.h(72): warning:  #1295-D: Deprecated declaration WaitForCross - give arg types
+  void WaitForCross();
+..\MyCode\control.h(84): warning:  #1295-D: Deprecated declaration flash_led - give arg types
+  void flash_led();
+..\MyCode\control.h(85): warning:  #1295-D: Deprecated declaration battery - give arg types
+  void battery();
+..\MyCode\control.h(86): warning:  #1295-D: Deprecated declaration show_battery - give arg types
+  void show_battery();
+..\MyCode\control.h(87): warning:  #1295-D: Deprecated declaration battery_check - give arg types
+  void battery_check();
+..\MyCode\control.h(90): warning:  #1295-D: Deprecated declaration detect_Traffic_light - give arg types
+  uint8_t detect_Traffic_light();
+..\MyCode\control.h(91): warning:  #1295-D: Deprecated declaration Traffic_pass - give arg types
+  int Traffic_pass();
+..\MyCode\control.h(95): warning:  #1295-D: Deprecated declaration record_read - give arg types
+  void record_read();
+..\MyCode\control.h(96): warning:  #1295-D: Deprecated declaration record_show - give arg types
+  void record_show();
+..\MyCode\uart_it.c: 16 warnings, 0 errors
+compiling u8g2_polygon.c...
+compiling Vofa_send.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\MyCode\control.h(72): warning:  #1295-D: Deprecated declaration WaitForCross - give arg types
+  void WaitForCross();
+..\MyCode\control.h(84): warning:  #1295-D: Deprecated declaration flash_led - give arg types
+  void flash_led();
+..\MyCode\control.h(85): warning:  #1295-D: Deprecated declaration battery - give arg types
+  void battery();
+..\MyCode\control.h(86): warning:  #1295-D: Deprecated declaration show_battery - give arg types
+  void show_battery();
+..\MyCode\control.h(87): warning:  #1295-D: Deprecated declaration battery_check - give arg types
+  void battery_check();
+..\MyCode\control.h(90): warning:  #1295-D: Deprecated declaration detect_Traffic_light - give arg types
+  uint8_t detect_Traffic_light();
+..\MyCode\control.h(91): warning:  #1295-D: Deprecated declaration Traffic_pass - give arg types
+  int Traffic_pass();
+..\MyCode\control.h(95): warning:  #1295-D: Deprecated declaration record_read - give arg types
+  void record_read();
+..\MyCode\control.h(96): warning:  #1295-D: Deprecated declaration record_show - give arg types
+  void record_show();
+..\MyCode\Vofa_send.c: 16 warnings, 0 errors
+compiling u8log.c...
+compiling u8g2_selection_list.c...
+compiling u8g2_setup.c...
+..\U8G2\u8g2_setup.c(451): warning:  #1-D: last line of file ends without a newline
+    
+..\U8G2\u8g2_setup.c: 1 warning, 0 errors
+compiling control.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\MyCode\control.h(72): warning:  #1295-D: Deprecated declaration WaitForCross - give arg types
+  void WaitForCross();
+..\MyCode\control.h(84): warning:  #1295-D: Deprecated declaration flash_led - give arg types
+  void flash_led();
+..\MyCode\control.h(85): warning:  #1295-D: Deprecated declaration battery - give arg types
+  void battery();
+..\MyCode\control.h(86): warning:  #1295-D: Deprecated declaration show_battery - give arg types
+  void show_battery();
+..\MyCode\control.h(87): warning:  #1295-D: Deprecated declaration battery_check - give arg types
+  void battery_check();
+..\MyCode\control.h(90): warning:  #1295-D: Deprecated declaration detect_Traffic_light - give arg types
+  uint8_t detect_Traffic_light();
+..\MyCode\control.h(91): warning:  #1295-D: Deprecated declaration Traffic_pass - give arg types
+  int Traffic_pass();
+..\MyCode\control.h(95): warning:  #1295-D: Deprecated declaration record_read - give arg types
+  void record_read();
+..\MyCode\control.h(96): warning:  #1295-D: Deprecated declaration record_show - give arg types
+  void record_show();
+../bsp/servo.h(5): warning:  #1295-D: Deprecated declaration servo_init - give arg types
+  void servo_init(); 
+..\MyCode\control.c(174): warning:  #940-D: missing return statement at end of non-void function "detect_Traffic_light"
+  }
+..\MyCode\control.c(212): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		osDelay(my_abs(speed_temp)*0.08);
+..\MyCode\control.c(249): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		dingjiao_pid.Ki=0.2+0.6*((my_abs(err)-90)/90);
+..\MyCode\control.c(462): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		Ramp_dis(speed,100,my_abs(err)/57.29578*15*(1-speed/16800));
+..\MyCode\control.c(465): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  		osDelay(my_abs(speed_temp)*0.08);
+..\MyCode\control.c(540): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	voltage=(v/100)*0.8074;
+..\MyCode\control.c(628): warning:  #177-D: variable "r" was declared but never referenced
+  	char r,str[10]="Door:0";
+..\MyCode\control.c(632): warning:  #1-D: last line of file ends without a newline
+  	
+..\MyCode\control.c: 25 warnings, 0 errors
+compiling u8log_u8x8.c...
+compiling u8x8_8x8.c...
+compiling u8log_u8g2.c...
+compiling section.c...
+../MyCode/MyTask.h(8): warning:  #1295-D: Deprecated declaration _StateUpdate - give arg types
+  void _StateUpdate();
+../MyCode/MyTask.h(9): warning:  #1295-D: Deprecated declaration _TestTask - give arg types
+  void _TestTask();
+../MyCode/MyTask.h(10): warning:  #1295-D: Deprecated declaration _DingjiaoPIDTask - give arg types
+  void _DingjiaoPIDTask();
+../MyCode/MyTask.h(11): warning:  #1295-D: Deprecated declaration _TrackPIDTask - give arg types
+  void _TrackPIDTask();
+../MyCode/MyTask.h(12): warning:  #1295-D: Deprecated declaration _M2006Task - give arg types
+  void _M2006Task();
+../MyCode/MyTask.h(14): warning:  #1295-D: Deprecated declaration _LEDFlash - give arg types
+  void _LEDFlash();
+../MyCode/MyTask.h(15): warning:  #1295-D: Deprecated declaration _ContestTask - give arg types
+  void _ContestTask();
+..\MyCode\section.h(21): warning:  #1295-D: Deprecated declaration p1_to_p2 - give arg types
+  void p1_to_p2();
+..\MyCode\section.h(22): warning:  #1295-D: Deprecated declaration p2_to_p3 - give arg types
+  void p2_to_p3();
+..\MyCode\section.h(23): warning:  #1295-D: Deprecated declaration p2_to_p4 - give arg types
+  void p2_to_p4();
+..\MyCode\section.h(25): warning:  #1295-D: Deprecated declaration p3_to_s01 - give arg types
+  void p3_to_s01();
+..\MyCode\section.h(26): warning:  #1295-D: Deprecated declaration s01_to_p4 - give arg types
+  void s01_to_p4();
+..\MyCode\section.h(27): warning:  #1295-D: Deprecated declaration p3_to_p4 - give arg types
+  void p3_to_p4();
+..\MyCode\section.h(29): warning:  #1295-D: Deprecated declaration p4_to_s02 - give arg types
+  void p4_to_s02();
+..\MyCode\section.h(30): warning:  #1295-D: Deprecated declaration s02_to_cross2 - give arg types
+  void s02_to_cross2();
+..\MyCode\section.h(31): warning:  #1295-D: Deprecated declaration p4_to_cross2 - give arg types
+  void p4_to_cross2();
+..\MyCode\section.h(35): warning:  #1295-D: Deprecated declaration cross3_to_p6 - give arg types
+  void cross3_to_p6();
+..\MyCode\section.h(36): warning:  #1295-D: Deprecated declaration cross3_to_p8 - give arg types
+  void cross3_to_p8();
+..\MyCode\section.h(38): warning:  #1295-D: Deprecated declaration p6_to_s03 - give arg types
+  void p6_to_s03();
+..\MyCode\section.h(39): warning:  #1295-D: Deprecated declaration s03_to_p8 - give arg types
+  void s03_to_p8();
+..\MyCode\section.h(40): warning:  #1295-D: Deprecated declaration p6_to_p8 - give arg types
+  void p6_to_p8();
+..\MyCode\section.h(42): warning:  #1295-D: Deprecated declaration p8_to_p7 - give arg types
+  void p8_to_p7();
+..\MyCode\section.h(43): warning:  #1295-D: Deprecated declaration p7_to_p5 - give arg types
+  void p7_to_p5();
+..\MyCode\section.h(44): warning:  #1295-D: Deprecated declaration p7_to_cross3 - give arg types
+  void p7_to_cross3();
+..\MyCode\section.h(46): warning:  #1295-D: Deprecated declaration p5_to_s05 - give arg types
+  void p5_to_s05();
+..\MyCode\section.h(47): warning:  #1295-D: Deprecated declaration s05_to_s04 - give arg types
+  void s05_to_s04();
+..\MyCode\section.h(48): warning:  #1295-D: Deprecated declaration s04_to_cross3 - give arg types
+  void s04_to_cross3();
+..\MyCode\section.h(49): warning:  #1295-D: Deprecated declaration p5_to_cross3 - give arg types
+  void p5_to_cross3();
+..\MyCode\section.h(51): warning:  #1295-D: Deprecated declaration cross3_to_cross12 - give arg types
+  void cross3_to_cross12();
+..\MyCode\section.h(54): warning:  #1295-D: Deprecated declaration cross4_to_p5 - give arg types
+  void cross4_to_p5();
+..\MyCode\section.h(55): warning:  #1295-D: Deprecated declaration cross4_to_p6 - give arg types
+  void cross4_to_p6();
+..\MyCode\section.h(56): warning:  #1295-D: Deprecated declaration cross4_to_p8 - give arg types
+  void cross4_to_p8();
+..\MyCode\section.h(58): warning:  #1295-D: Deprecated declaration p5_to_s05 - give arg types
+  void p5_to_s05();
+..\MyCode\section.h(59): warning:  #1295-D: Deprecated declaration s05_to_s04 - give arg types
+  void s05_to_s04();
+..\MyCode\section.h(60): warning:  #1295-D: Deprecated declaration s04_to_p6 - give arg types
+  void s04_to_p6();
+..\MyCode\section.h(61): warning:  #1295-D: Deprecated declaration p5_to_p6 - give arg types
+  void p5_to_p6();
+..\MyCode\section.h(63): warning:  #1295-D: Deprecated declaration p6_to_s03 - give arg types
+  void p6_to_s03();
+..\MyCode\section.h(64): warning:  #1295-D: Deprecated declaration s03_to_p8 - give arg types
+  void s03_to_p8();
+..\MyCode\section.h(65): warning:  #1295-D: Deprecated declaration p6_to_p8 - give arg types
+  void p6_to_p8();
+..\MyCode\section.h(67): warning:  #1295-D: Deprecated declaration p8_to_p7 - give arg types
+  void p8_to_p7();
+..\MyCode\section.h(68): warning:  #1295-D: Deprecated declaration p7_to_cross4 - give arg types
+  void p7_to_cross4();	
+..\MyCode\section.h(69): warning:  #1295-D: Deprecated declaration cross4_to_cross12 - give arg types
+  void cross4_to_cross12();
+..\MyCode\section.h(71): warning:  #1295-D: Deprecated declaration cross12_back - give arg types
+  void cross12_back();
+..\MyCode\section.h(73): warning:  #1295-D: Deprecated declaration find_door - give arg types
+  void find_door();
+..\MyCode\section.h(106): warning:  #1295-D: Deprecated declaration jieti_2 - give arg types
+  void jieti_2();
+..\MyCode\section.h(108): warning:  #1295-D: Deprecated declaration pingtai6 - give arg types
+  void pingtai6();
+..\MyCode\section.h(109): warning:  #1295-D: Deprecated declaration ready - give arg types
+  void ready();
+..\MyCode\section.h(110): warning:  #1295-D: Deprecated declaration jinxingban_start - give arg types
+  void jinxingban_start();
+..\MyCode\section.h(114): warning:  #1295-D: Deprecated declaration zhili - give arg types
+  void zhili();
+..\MyCode\section.h(117): warning:  #1295-D: Deprecated declaration backhome - give arg types
+  void backhome();
+..\MyCode\control.h(72): warning:  #1295-D: Deprecated declaration WaitForCross - give arg types
+  void WaitForCross();
+..\MyCode\control.h(84): warning:  #1295-D: Deprecated declaration flash_led - give arg types
+  void flash_led();
+..\MyCode\control.h(85): warning:  #1295-D: Deprecated declaration battery - give arg types
+  void battery();
+..\MyCode\control.h(86): warning:  #1295-D: Deprecated declaration show_battery - give arg types
+  void show_battery();
+..\MyCode\control.h(87): warning:  #1295-D: Deprecated declaration battery_check - give arg types
+  void battery_check();
+..\MyCode\control.h(90): warning:  #1295-D: Deprecated declaration detect_Traffic_light - give arg types
+  uint8_t detect_Traffic_light();
+..\MyCode\control.h(91): warning:  #1295-D: Deprecated declaration Traffic_pass - give arg types
+  int Traffic_pass();
+..\MyCode\control.h(95): warning:  #1295-D: Deprecated declaration record_read - give arg types
+  void record_read();
+..\MyCode\control.h(96): warning:  #1295-D: Deprecated declaration record_show - give arg types
+  void record_show();
+../bsp/servo.h(5): warning:  #1295-D: Deprecated declaration servo_init - give arg types
+  void servo_init(); 
+..\MyCode\section.c(440): warning:  #1295-D: Deprecated declaration p5_to_s05 - give arg types
+  void p5_to_s05();
+..\MyCode\section.c(442): warning:  #1295-D: Deprecated declaration s05_to_s04 - give arg types
+  void s05_to_s04();
+..\MyCode\section.c(500): warning:  #1295-D: Deprecated declaration p6_to_s03 - give arg types
+  void p6_to_s03();
+..\MyCode\section.c(502): warning:  #1295-D: Deprecated declaration s03_to_p8 - give arg types
+  void s03_to_p8();
+..\MyCode\section.c(505): warning:  #1295-D: Deprecated declaration p6_to_p8 - give arg types
+  void p6_to_p8();
+..\MyCode\section.c(507): warning:  #1295-D: Deprecated declaration p8_to_p7 - give arg types
+  void p8_to_p7();
+..\MyCode\section.c(1019): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float Temp_yaw_2=(Temp_yaw11+Temp_yaw22+Temp_yaw33)/3.0;
+..\MyCode\section.c(1085): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float Temp_yaw=(Temp_yaw1+Temp_yaw2+Temp_yaw3)/3.0;
+..\MyCode\section.c(1126): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+  	float Temp_yaw_2=(Temp_yaw11+Temp_yaw22+Temp_yaw33)/3.0;
+..\MyCode\section.c: 69 warnings, 0 errors
+compiling u8x8_capture.c...
+..\U8G2\u8x8_capture.c(254): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\U8G2\u8x8_capture.c: 1 warning, 0 errors
+compiling u8x8_debounce.c...
+compiling u8x8_cad.c...
+compiling u8x8_byte.c...
+compiling u8x8_d_ssd1306_128x64_noname.c...
+compiling u8x8_display.c...
+compiling u8x8_gpio.c...
+..\U8G2\u8x8_gpio.c(50): warning:  #1-D: last line of file ends without a newline
+  */
+..\U8G2\u8x8_gpio.c: 1 warning, 0 errors
+compiling u8x8_input_value.c...
+compiling u8x8_fonts.c...
+compiling u8x8_message.c...
+compiling u8x8_setup.c...
+compiling u8x8_string.c...
+compiling u8x8_selection_list.c...
+compiling u8x8_u8toa.c...
+compiling stm32f4xx_ll_adc.c...
+compiling u8x8_u16toa.c...
+compiling u8g2_fonts.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_adc.c...
+compiling stm32f4xx_hal_adc_ex.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling croutine.c...
+compiling stm32f4xx_hal_exti.c...
+compiling event_groups.c...
+compiling stm32f4xx_hal_flash.c...
+compiling list.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling timers.c...
+compiling stream_buffer.c...
+compiling queue.c...
+compiling heap_4.c...
+compiling tasks.c...
+compiling port.c...
+compiling cmsis_os.c...
+compiling stm32f4xx_hal_can.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_tim.c...
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal_uart.c...
+linking...
+Program Size: Code=38196 RO-data=9700 RW-data=380 ZI-data=20804  
+FromELF: creating hex file...
+"TravelingCar\TravelingCar.axf" - 0 Error(s), 417 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\hp\Documents\Tencent Files\1067026931\FileRecv\TravelingCar_FreeRTOS_Final\MDK-ARM\RTE
+  D:\stm32\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\stm32\ARM\PACK\Keil\STM32F4xx_DFP\2.9.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:28
+</pre>
+</body>
+</html>
